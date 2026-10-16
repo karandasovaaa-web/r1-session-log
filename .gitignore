@@ -1,21 +1,11 @@
-# артефакты сборки и запуска
-.idea
-.check_tmp/
-*.produced
-solution
-*.o
-*.obj
-*.exe
 __pycache__/
 *.pyc
-r2-bmp-sort/tools/bmpshuffle/bmpshuffle
-
-# решение студента (создаётся локально, не коммитится в шаблон)
-solution.json
-
-# ПРИВАТНОЕ преподавателя — никогда не коммитить в публичный репозиторий:
-reference.*
-main.cpp
-*_reference.*
-tests/hidden/
-TEACHER.md
+.venv/
+venv/
+.idea/
+.vscode/
+my_out.txt
+my_result.txt
+worst*.txt
+bench/
+.check_tmp/
